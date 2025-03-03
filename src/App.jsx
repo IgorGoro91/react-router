@@ -5,7 +5,8 @@ import AboutUs from "./pages/AboutUs"
 import HomePage from "./pages/HomePage"
 
 import DefaultLayout from "./layouts/DefaultLayout"
-
+import Products from "./products/Products"
+import SingleProduct from "./products/SingleProduct"
 
 function App() {
 
