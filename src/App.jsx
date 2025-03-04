@@ -5,8 +5,8 @@ import AboutUs from "./pages/AboutUs"
 import HomePage from "./pages/HomePage"
 
 import DefaultLayout from "./layouts/DefaultLayout"
-import Products from "./products/Products"
-import SingleProduct from "./products/SingleProduct"
+
+import SinglePosts from "./products/SingleProduct"
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
             <Route path="/" Component={HomePage} />
             <Route path="/about-us" Component={AboutUs} />
             <Route path="/posts-list" Component={PostsList} />
-
+            <Route path="/posts-list/:id" Component={SinglePosts} />
             
             
           </Route>
