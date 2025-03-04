@@ -19,6 +19,8 @@ function App() {
             <Route path="/" Component={HomePage} />
             <Route path="/about-us" Component={AboutUs} />
             <Route path="/posts-list" Component={PostsList} />
+
+            
             
           </Route>
 

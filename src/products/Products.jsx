@@ -21,10 +21,10 @@ const Products = () =>{
                         products.map( (elem) => {
                             return(
                                 <div key={elem.id} className="col-4">
-                                    <div class="card-tetle">  
-                                        <div class="card-body">
-                                            <h4 class="card-title">{elem.title} </h4>
-                                            <p class="card-text">{elem.tags}</p>
+                                    <div className="card-tetle">  
+                                        <div className="card-body">
+                                            <h4 className="card-title">{elem.title} </h4>
+                                            <p className="card-text">{elem.tags}</p>
                                         </div>
                                     </div>      
                                 </div>
