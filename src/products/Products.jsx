@@ -24,6 +24,7 @@ const Products = () =>{
                                     <div className="card-tetle">  
                                         <div className="card-body">
                                             <h4 className="card-title">{elem.title} </h4>
+                                            
                                             <p className="card-text">{elem.tags}</p>
                                         </div>
                                     </div>      
