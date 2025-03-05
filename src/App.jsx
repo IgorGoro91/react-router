@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route  } from "react-router-dom"
 
-import PostsList from "./pages/postslist"
+import PostsList from "./pages/Postslist"
 import AboutUs from "./pages/AboutUs"
 import HomePage from "./pages/HomePage"
 
 import DefaultLayout from "./layouts/DefaultLayout"
 
-import SinglePosts from "./products/SingleProduct"
+import SinglePosts from "./products/SinglePosts"
 
 function App() {
 
